@@ -1,6 +1,6 @@
 # fundamentos-web-equipo-03
 
-### Página 2 (tema2.html)
+### index.html
 
 **Errores y advertencias encontradas:**
 1. **Error (Elementos `<a>` dentro de `<button>`):** Se usaron etiquetas de enlaces `<a>` dentro de elementos `<button>` para la navegación (`<button><a href="...">...</a></button>`), lo cual es incorrecto en HTML semántico.
