@@ -28,4 +28,16 @@ Errores encontrados:
 - Advertencia: El atributo `cellpadding` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
 
 Correcciones realizadas:
+- Se removieron los atributos de formato visual obsoletos (`border`, `cellspacing`, `cellpadding`) de la etiqueta `<table>` para cumplir con la validación de HTML5 puro.
 
+### computacionNube.html
+Errores encontrados:
+- Error: Uso de la etiqueta obsoleta `<center>` para centrar contenido (Línea 27).
+- Error: Etiqueta de cierre `</p>` encontrada sin una etiqueta de apertura `<p>` que la preceda (Línea 64).
+- Advertencia: El atributo `border` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 70).
+- Advertencia: El atributo `border` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 110).
+
+Correcciones realizadas:
+- Se reemplazó la etiqueta `<center>` por estilos CSS para la alineación del elemento.
+- Se eliminó el cierre de etiqueta `</p>` huérfano para corregir la estructura sintáctica del HTML.
+- Se retiraron los atributos `border` de las etiquetas `<table>` para gestionar los bordes mediante CSS.
