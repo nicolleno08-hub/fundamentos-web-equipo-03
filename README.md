@@ -28,3 +28,4 @@ Errores encontrados:
 - Advertencia: El atributo `cellpadding` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
 
 Correcciones realizadas:
+
