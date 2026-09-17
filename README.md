@@ -1,4 +1,12 @@
 # fundamentos-web-equipo-03
+## Distribución del trabajo
+
+| Integrante       | Responsabilidad                          |
+|------------------|------------------------------------------|
+| Arias Sofía      | Inteligencia Artificial y Automatización |
+| Franco David     | Ciberseguridad                           |
+| Ceballos Nicolle | Computación en la Nube                   |
+
 ### index.html
 
 **Errores y advertencias encontradas:**
@@ -13,3 +21,10 @@ Correcciones realizadas:
 - Se eliminaron los elementos <button> y se dejaron los enlaces <a> directamente dentro del <nav>.
 - Se eliminaron los atributos border, cellpadding y cellspacing de la tabla para mantener una estructura HTML5 válida.
 
+### ciberseguridad.html
+Errores encontrados:
+- Advertencia: El atributo `border` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
+- Advertencia: El atributo `cellspacing` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
+- Advertencia: El atributo `cellpadding` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
+
+Correcciones realizadas:
