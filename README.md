@@ -12,3 +12,4 @@
 Correcciones realizadas:
 - Se eliminaron los elementos <button> y se dejaron los enlaces <a> directamente dentro del <nav>.
 - Se eliminaron los atributos border, cellpadding y cellspacing de la tabla para mantener una estructura HTML5 válida.
+
