@@ -6,6 +6,15 @@
     --color-surface: #617da9; 
     --color-text: #14285B; 
 } 
+
+img { 
+    max-width: 100%; 
+    height: auto;   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;     
+}
+
 .main-nav {
     display: flex;
     justify-content: center;
@@ -40,6 +49,101 @@
     transform: translateY(-2px); 
 }
 
+.tabla2 {
+    background-color: var(--color-accent);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tabla2 th {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: var(--color-bg);
+    padding: 10px;
+}
+
+.tabla2 .division {
+    background-color: white;
+}
+
+.tabla2 td {
+    padding: 10px;
+}
+
+.tabla2 .description {
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.tabla2 h2 {
+    color: var(--color-text);
+    -webkit-text-stroke: 0.5px var(--color-primary);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;  
+}
+
+.tabla {
+    background-color: var(--color-bg);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.tabla h2 {
+    color: white;
+    -webkit-text-stroke: 0.5px var(--color-primary);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;    
+}
+
+.tabla .secciones {
+    background-color: var(--color-accent);
+    padding: 5px;
+    margin: 15px;
+}
+
+.tabla summary {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tabla summary:hover {
+    color: var(--color-text);
+    font-size: 25px;
+}
+
+.tabla p {
+    text-align: center;
+}
+
+.tabla .caption {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .site-footer {
     background-color: var(--color-primary);
     padding: 2rem 1rem;
@@ -71,3 +175,7 @@
     font-style: normal;
     color: var(--color-text);
 }
+
+
+
+

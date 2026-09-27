@@ -5,16 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciberseguridad</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 
 <body>
 
-    <header>
-        <nav>
-            <a href="login.html">Iniciar sesión</a>
-            <a href="index.html">Inteligencia Artificial y Automatización</a>
-            <a href="computacionNube.html">Computación en la Nube</a>
+    <header class="site-header">
+        <nav class="main-nav">
+            <a class="main-nav__link" href="login.html">
+                <img src="multimedia/LOGIN.png" alt="Iniciar sesión" width="24" height="24">
+                <span>Iniciar sesión</span>
+            </a>
+
+            <a class="main-nav__link" href="index.html">
+                <img src="multimedia/CIBERSEGURIDAD.png" alt="Ciberseguridad" width="24" height="24">
+                <span>Inteligencia Artificial</span>
+            </a>
+
+            <a class="main-nav__link" href="computacionNube.html">
+                <img src="multimedia/COMPUTACION_NUBE.png" alt="Computación en la nube" width="24" height="24">
+                <span>Computación en la nube</span>
+            </a>
         </nav>
 
         <h1>Ciberseguridad</h1>
@@ -63,7 +75,10 @@
 
             <br>
 
-            <section>
+
+<!-- Esta es la tabla de ciberseguridad -->
+
+            <section class="tabla2">
                 <h2>Buenas prácticas y protección de información</h2>
 
                 <table>
@@ -75,26 +90,26 @@
                         <th>Frecuencia de Aplicación</th>
                     </tr>
 
-                    <tr>
-                        <td>Contraseñas débiles</td>
+                    <tr class="division">
+                        <td class="description">Contraseñas débiles</td>
                         <td>Usar gestores de contraseñas y activar la autenticación en dos pasos (2FA)</td>
                         <td>Configuración única / Permanente</td>
                     </tr>
 
-                    <tr>
-                        <td>Pérdida de datos</td>
+                    <tr class="division">
+                        <td class="description">Pérdida de datos</td>
                         <td>Realizar copias de seguridad (backups) en la nube o en discos externos</td>
                         <td>Semanal o mensual</td>
                     </tr>
 
-                    <tr>
-                        <td>Conexiones interceptadas</td>
+                    <tr class="division">
+                        <td class="description">Conexiones interceptadas</td>
                         <td>Utilizar redes VPN al conectarse a redes Wi-Fi públicas (como en cafeterías)</td>
                         <td>Siempre que se esté fuera de casa</td>
                     </tr>
 
-                    <tr>
-                        <td>Vulnerabilidades del sistema</td>
+                    <tr class="division">
+                        <td class="description">Vulnerabilidades del sistema</td>
                         <td>Activar las actualizaciones automáticas del sistema operativo y aplicaciones</td>
                         <td>Constante / Automático</td>
                     </tr>
@@ -103,12 +118,15 @@
                 
                 <br>
 
-            <img height="300" src="multimedia/Cybersegurity.png" alt="Candado digital sobre un fondo de código binario">    
+            <img src="multimedia/Cybersegurity.png" alt="Candado digital sobre un fondo de código binario">    
 
             </section>
 
             <br>
             <hr>
+
+<!-- aqui termina la tabla de ciberseguridad -->
+
 
             <section>
                 <h2>Fuentes Consultadas</h2>
@@ -121,8 +139,13 @@
 
     <br>
 
-    <footer>
-        <p>Fundamentos WEB Grupo 4303</p>
+    <footer class="site-footer">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Fundamentos WEB - Grupo 4303</p>
+                <address class="card-address">UNICAMACHO</address>
+            </div>
+        </div>
     </footer>
     
 </body>
