@@ -1,0 +1,73 @@
+:root { 
+    --color-primary: #293356; 
+    --color-secondary: #203CA7; 
+    --color-accent: #89b9eb; 
+    --color-bg: #16232C; 
+    --color-surface: #617da9; 
+    --color-text: #14285B; 
+} 
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 1rem;
+    background-color: var(--color-surface);
+} 
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    padding: 1rem;
+    background-color: var(--color-surface);
+}
+.main-nav__link {
+    display: inline-flex;        
+    align-items: center;          
+    gap: 8px;                   
+    
+    padding: 8px 16px;             
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;           
+    background-color: var(--color-accent); 
+    color: var(--color-primary);   
+    text-decoration: none;         
+    font-weight: bold;
+    transition: all 0.2s ease;     
+}
+.main-nav__link:hover {
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+    transform: translateY(-2px); 
+}
+
+.site-footer {
+    background-color: var(--color-primary);
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+.card {
+    background-color: var(--color-accent);    
+    border: 2px solid var(--color-surface);  
+    border-radius: 12px;                     
+    max-width: 400px;                         
+    margin: 0 auto;                           
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--color-primary);              
+}
+
+.card-text {
+    margin: 0 0 0.5rem 0;
+    font-weight: bold;
+}
+
+.card-address {
+    font-style: normal;
+    color: var(--color-text);
+}
