@@ -7,37 +7,22 @@
 | Franco David     | Ciberseguridad                           |
 | Ceballos Nicolle | Computación en la Nube                   |
 
-### index.html
+## Convención CSS 
+- Idioma de clases: inglés 
+- Formato: kebab-case 
+- Componentes: BEM cuando aplique 
 
-**Errores y advertencias encontradas:**
-1. **Error (Elementos `<a>` dentro de `<button>`):** Se usaron etiquetas de enlaces `<a>` dentro de elementos `<button>` para la navegación (`<button><a href="...">...</a></button>`), lo cual es incorrecto en HTML semántico.
-2. **Advertencia (Atributo `border` obsoleto):** Se utilizó el atributo `border="1"` en la etiqueta `<table>`, el cual está en desuso/obsoleto en HTML5.
+## Paleta de color 
+- Primary: #293356 
+- Secondary: #203CA7 
+- Accent: #89b9eb 
+- Background: #16232C 
+- Text: #14285B 
 
-**Correcciones a realizar:**
-1. Se debe remover el elemento `<button>` en la barra de navegación y se dejar únicamente las etiquetas de enlace `<a>` simples, cumpliendo además con la norma de no utilizar CSS ni JavaScript en el proyecto.
-2. Eliminar el atributo `border="1"` de la etiqueta `<table>` para dejar el elemento en HTML5 puro.
+Justificación: La paleta fue seleccionada con tonos azules y fríos orientados a las tecnologías de la información (IA, Ciberseguridad y Nube). Esta combinación transmite seguridad, innovación y estructura. Además, la relación de contraste entre el fondo oscuro (`#16232C`), las tarjetas de acento claras (`#89b9eb`) y el texto oscuro garantiza una lectura cómoda y una navegación clara entre los tres módulos del sitio.
 
-Correcciones realizadas:
-- Se eliminaron los elementos <button> y se dejaron los enlaces <a> directamente dentro del <nav>.
-- Se eliminaron los atributos border, cellpadding y cellspacing de la tabla para mantener una estructura HTML5 válida.
-
-### ciberseguridad.html
-Errores encontrados:
-- Advertencia: El atributo `border` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
-- Advertencia: El atributo `cellspacing` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
-- Advertencia: El atributo `cellpadding` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 69).
-
-Correcciones realizadas:
-- Se removieron los atributos de formato visual obsoletos (`border`, `cellspacing`, `cellpadding`) de la etiqueta `<table>` para cumplir con la validación de HTML5 puro.
-
-### computacionNube.html
-Errores encontrados:
-- Error: Uso de la etiqueta obsoleta `<center>` para centrar contenido (Línea 27).
-- Error: Etiqueta de cierre `</p>` encontrada sin una etiqueta de apertura `<p>` que la preceda (Línea 64).
-- Advertencia: El atributo `border` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 70).
-- Advertencia: El atributo `border` en la etiqueta `<table>` está obsoleto en HTML5 (Línea 110).
-
-Correcciones realizadas:
-- Se reemplazó la etiqueta `<center>` por estilos CSS para la alineación del elemento.
-- Se eliminó el cierre de etiqueta `</p>` huérfano para corregir la estructura sintáctica del HTML.
-- Se retiraron los atributos `border` de las etiquetas `<table>` para gestionar los bordes mediante CSS.
+## Prueba de cascada Resultado del selector de elemento: ... 
+Resultado de la clase: ... 
+Resultado del ID: ... 
+Resultado del estilo inline: ... 
+Explicación: ...
